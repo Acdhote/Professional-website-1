@@ -224,9 +224,11 @@ body {
   font-weight: var(--fw-bold);
   color: var(--clr-neutral-100);
   background-color: var(--clr-accent-400);
+  margin: 1rem;
 }
 
 .button:hover,
 button:focus-within{
+
 
 }
