@@ -14,16 +14,24 @@
     <header class="primary-header">
       
       <div class="container">
-        <a href="#"><img src="./images/logo.png" alt="Promise Act" style="width: 10%;"></a>
-        <nav class="primary-navigation" >
-          <ul role="list" class="nav-list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">The Team</a></li>
-            <li><a href="#">Login</a></li>
-          </ul>
-        </nav>
-        <button class="button">Get Started</button>
+
+        <div class="nav-wrapper">
+          <a href="#"><img src="./images/logo.png" alt="Promise Act" style="width: 100px;"></a>
+          <button class="mobile-nav-toggle">
+            <img class="icon-close" src="images/icon-close.svg" aria-hidden= "true" alt="">
+            <img class="icon-hamburger" src="images/icon-hamburger.svg" aria-hidden= "true" alt="">
+            <span class="visually-hidden">Menu</span>
+          </button>
+          <nav class="primary-navigation" id="primary-navigation" >
+            <ul role="list" class="nav-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">The Team</a></li>
+              <li><a href="#">Login</a></li>
+            </ul>
+          </nav>
+          <button class="button" style="display: none;">Get Started</button>
+        </div>
       </div>
 
     </header>
@@ -90,7 +98,7 @@
               <p class="fs-secondary-heading fw-bold">Simplify your medical data safety.</p>
             </div>
             <div>
-              <button class="button" data-type="inverted">Get Started</button>
+              <button class="white-button" data-type="inverted">Get Started</button>
             </div>
           </div>
         </div>
